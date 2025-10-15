@@ -43,7 +43,6 @@ The app supports multiple weather states with custom effects:
 
 ## 📁 Project Structure
 src/
-
 ├─ assets/
 
 ├─ components/
