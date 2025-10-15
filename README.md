@@ -42,33 +42,33 @@ The app supports multiple weather states with custom effects:
 ---
 
 ## 📁 Project Structure
-src/
-├─ assets/
-├─ components/
-│ ├─ WeatherParticles.tsx
-│ ├─ ForecastPanel.tsx
-│ └─ WeatherCard.tsx
-├─ hooks/
-│ └─ useLocalStorage.ts
-├─ types/
-│ └─ weather.ts
-├─ http/
-│ └─ services.ts
-│ └─ instance.ts
-├─ pages/
-│ └─ Home.ts
-│ └─ Presets.ts
-│ └─ NotFound.ts
-├─ utils/
-│ └─ handleWeatherCache.ts
-├─ weather-presets.ts
-├─ nav.ts
+src/<br/>
+├─ assets/<br/>
+├─ components/<br/>
+│ ├─ WeatherParticles.tsx<br/>
+│ ├─ ForecastPanel.tsx<br/>
+│ └─ WeatherCard.tsx<br/>
+├─ hooks/<br/>
+│ └─ useLocalStorage.ts<br/>
+├─ types/<br/>
+│ └─ weather.ts<br/>
+├─ http/<br/>
+│ └─ services.ts<br/>
+│ └─ instance.ts<br/>
+├─ pages/<br/>
+│ └─ Home.ts<br/>
+│ └─ Presets.ts<br/>
+│ └─ NotFound.ts<br/>
+├─ utils/<br/>
+│ └─ handleWeatherCache.ts<br/>
+├─ weather-presets.ts<br/>
+├─ nav.ts<br/>
 └─ App.tsx
 
 ## 🧪 Environment Variables
 
 Create a `.env` file in the root directory with the following content:
-VITE_WEATHER_API_KEY=your_openweather_api_key
+VITE_WEATHER_API_KEY=your_openweather_api_key<br/>
 VITE_API_BASE_URL=https://api.openweathermap.org
 
 ## 🧭 How to Run
