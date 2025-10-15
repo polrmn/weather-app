@@ -43,47 +43,26 @@ The app supports multiple weather states with custom effects:
 
 ## 📁 Project Structure
 src/
-
 ├─ assets/
-
 ├─ components/
-
 │ ├─ WeatherParticles.tsx
-
 │ ├─ ForecastPanel.tsx
-
 │ └─ WeatherCard.tsx
-
 ├─ hooks/
-
 │ └─ useLocalStorage.ts
-
 ├─ types/
-
 │ └─ weather.ts
-
 ├─ http/
-
 │ └─ services.ts
-
 │ └─ instance.ts
-
 ├─ pages/
-
 │ └─ Home.ts
-
 │ └─ Presets.ts
-
 │ └─ NotFound.ts
-
 ├─ utils/
-
 │ └─ handleWeatherCache.ts
-
 ├─ weather-presets.ts
-
 ├─ nav.ts
-
 └─ App.tsx
 
 ## 🧪 Environment Variables
