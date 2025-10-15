@@ -90,8 +90,7 @@ src/
 
 Create a `.env` file in the root directory with the following content:
 
-VITE_WEATHER_API_KEY=your_openweather_api_key
-
+VITE_WEATHER_API_KEY=your_openweather_api_key<br/>
 VITE_API_BASE_URL=https://api.openweathermap.org
 
 
